@@ -46,7 +46,38 @@
 
 .main {
   /* background-color: yellow; */
-  width: 90vw; /* it gives 80% of screen size to this main content. */
+  width: 100vw; /*it gives 80% of screen size to this main content. */
+  height: 100vh;
+}
+
+.top-nav{
+  /* background-color: red; */
+  width: 40vw;
+  margin-left: 120vh;
+  padding: 7px;
+  height: 3.5vh;
+}
+
+.top-nav nav li{
+  list-style: none;
+  padding-right: 30px;
+  display: inline;
+  /* float:right; */
+}
+
+.top-nav nav li a{
+  text-decoration: none; /*underlines will be removed*/
+  color: black;
+  font-size: 20px;
+  text-align: center;
+}
+
+.top-nav nav li a:hover {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  
 }
 
 .infocontainer {
@@ -132,11 +163,25 @@
     }
 
     .devInfo{
-      font-size: 10px;
+      font-size: 8px;
     }
 
     .buttons{
-      font-size: 10px;
+      font-size: 8px;
+    }
+
+    .sidebarGo{
+      transform: translate(-300px, 0px);
+    }
+
+    .three-bar{
+      width: 30px;
+    }
+  }
+
+  @media (max-width: 1175px){
+    .top-nav{
+      display: none;
     }
   }
   
