@@ -1,0 +1,29 @@
+
+.contactForm h1{
+    font-size: 50px;
+}
+
+.contactForm {
+    /* background-color: yellow; */
+    width: 80vw;
+    margin: 50px 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-label{
+    padding: 20px 0px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column; 
+}
+
+.form-control{
+    width: 40vw;
+    border-radius: 5px;
+    padding: 8px 5px;
+    font-size: 15px;
+    text-align: center;
+}
+
+

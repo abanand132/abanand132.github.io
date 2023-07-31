@@ -1,0 +1,142 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex; /*it is used to make the container/div, a flex box*/
+}
+
+.sidebar {
+  background-color: rgb(235, 235, 235);
+  /* background-color: red; */
+  /* width: 120px; */
+  height: 100vh; /*Setting the height of the sidebar to full height of the screen*/
+  transition: transform 0.2s ease-in;
+  font-weight: bold;
+  position: absolute;
+}
+
+.sidebar nav {
+  padding: 40px 20px 20px 20px;
+}
+
+.sidebar nav li {
+  list-style: none;
+  font-size: 20px;
+  padding: 10px 0px; /*Adding padding to top and bottom of the list */
+}
+
+.sidebar nav li a {
+  text-decoration: none; /*underlines will be removed*/
+  color: black;
+}
+.sidebar nav li a:hover {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.sidebarGo{
+    transform: translate(-130px, 0px);
+    position: absolute;
+}
+
+.main {
+  /* background-color: yellow; */
+  width: 90vw; /* it gives 80% of screen size to this main content. */
+}
+
+.infocontainer {
+  /* background-color: aquamarine; */
+  height: 60vh;
+  width: 80vw;
+  margin: 70px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.devInfo {
+  font-size: 16px;
+  display: flex;
+  flex-direction: column; /*flex container me items hai wo column wise positioned hai*/
+  justify-content: center; /*contents under devInfo now try to positioned at the center*/
+  width: 70vw;
+}
+
+.hello {
+  font-size: 2.5em;
+}
+
+.name {
+  font-size: 2em;
+}
+
+.about {
+  font-size: 2em;
+}
+
+.moreabout {
+  margin: 10px 0px;
+}
+
+.buttons{
+  font-size: 20px;
+}
+
+.btn {
+  margin-top: 20px;
+  margin-right: 15px;
+  padding: 8px 10px;
+  border-radius: 6px;
+  font-size: 1em;
+  font-weight: bold;
+  background-color: aqua;
+  cursor: pointer; /*when we hover about the buttons then shape of curson changes*/
+}
+
+/*Hover effect on buttons*/
+.btn:hover {
+  background-color: black;
+  color: white;
+}
+
+.devPic img {
+  height: 60vh;
+}
+
+.hamburger{
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.close-sign{
+    margin-left: 92px;
+}
+
+@media (max-width: 750px) {
+    /* *{
+        background-color: red;
+    } */
+    /* .sidebar{
+        transform: translate(-122px, 0px);
+        position: absolute;
+    } */
+    .devPic{
+        display: none;
+
+    }
+
+    .devInfo{
+      font-size: 10px;
+    }
+
+    .buttons{
+      font-size: 10px;
+    }
+  }
+  
