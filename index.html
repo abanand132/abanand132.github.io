@@ -3,67 +3,386 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/style.css">
-    <title>Abhishek Anand</title>
+    <title>Abhishek Anand - Software Engineer</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="images/personal_logo3.svg">
+
 </head>
+
 <body>
-    <div class="container">
-        <div class="sidebar sidebarGo">
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="index.html">Education</a></li>
-                    <li><a href="index.html">Skills</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
+    <nav id="desktop-nav">
+        <div class="logo">
+            <img class="logo-img" src="images/personal_logo3.svg" alt="Logo">
         </div>
 
-        <div class="main">
-            <div class="hamburger">
-                <img src="image/three-bar.png" alt="Three Bar Photo" class="three-bar" width="17">
-                <img src="image/close-sign.png" alt="" class="close-sign" width="17">
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contacts">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- <nav class="hamburger-nav">
+        <div class="logo">
+            <img class="logo-img" src="images/personal_logo3.svg" alt="Logo">
+        </div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon"></div>
+        </div>
+    </nav> -->
+
+    <div id="profile" class="div-for-all-section">
+        <div class="section-profile-img">
+            <img src="images/profile-photo.png" alt="Abhishek's Profile Photo" title="Abhishek Anand">
+        </div>
+        <div class="section-profile-bio">
+            <p class="section-profile-p1">Hii, I am</p>
+            <h1 class="title">Abhishek Anand</h1>
+            <p class="section-profile-p2">Software Engineer</p>
+            <div class="btn-container">
+                <a href="docs/Abhishek_Anand_Resume.pdf"> <button class="btn btn-col1">Download CV</button> </a>
+                <a href="#contacts"> <button class="btn btn-col2">Contact Me</button> </a>
             </div>
+            <div class="social-container">
+                <a href="https://www.linkedin.com/in/abanand132/" target="_blank"><img class="icon" src="images/linkedin-logo.png" alt="LinkedIn Profile"></a>
 
-            <div class="top-nav">
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="education.html">Education</a></li>
-                        <li><a href="skills.html">Skills</a></li>
-                        <li><a href="projects.html">Projects</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </nav>
-            </div>
-
-            <div class="infocontainer">
-
-                <div class="devInfo">
-                    <div class="hello"><h3>Hi I am</h3></div>
-                    <div class="name"><h3>Abhishek Anand</h3></div>
-                    <div class="about">
-                        <h3>Developer, ML Enthusiast</h3>
-                    </div>
-                    <div class="moreabout">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. At non iste voluptates sunt, vero sit sequi rem nihil beatae ullam?
-                    </div>
-                    <div class="buttons">
-                        <a href="docs/Abhishek_Anand_Resume.pdf" target="_blank" rel="noreferrer">
-                            <button class="btn">Download CV</button></a>
-                        <a href="contact.html"><button class="btn">Contact Me</button> </a>
-                    </div>
-                </div>
-
-                <div class="devPic">
-                    <img class="im" src="image/personal2-removebg.png" alt="Abhishek Anand">
-                </div>
-
+                <a href="https://github.com/abanand132" target="_blank"><img class="icon" src="images/github-logo.png" alt="Github Profile"></a>
             </div>
         </div>
     </div>
 
+    <hr>
+
+    <!-- About Section -->
+    <div id="about" class="div-for-all-section">
+        <h1 class="section-title" style="color  : grey;">About Me</h1>
+        <div class="section-container">
+            <div class="section-about-img">
+                <img src="images/about-pic.png" alt="About Me Element">
+            </div>
+            <div class="about-details-container">
+                <div class="about-para-container">
+                    <p class="section-profile-p1">Goal oriented, focused computer science undergraduate with strong problem solving skill. I am very passionate about coding and have a good understanding of programming languages like C, C++ and Python. I like to solve real world problems. I am currently studying Machine Learning. Eager to learn new technologies and take on new challenges. Quick learner and team player.</p>
+                </div>
+
+                <div class="about-container">
+                    <div class="details-container border-color-design">
+                        <img class="icon" src="images/education-logo.png" alt="Education_logo">
+                        <h3>Education</h3>
+                        <div class="edu-details">
+                            <div class="edu-details-1">
+                                <h4>Academy Of Technology, Kolkata</h4>
+                                <p class="edu-para">Btech in Computer Science and Business System</p>
+                                <p class="edu-para">CGPA : 9.63</p>
+                            </div>
+                            <div class="edu-details-2">
+                                <p>2020 - 2024</p>
+                            </div>
+                        </div>
+
+                        <!-- 2nd Education Details -->
+                        <div class="edu-details">
+                            <div class="edu-details-1">
+                                <h4>Geeta Science Inter College, Hazaribagh</h4>
+                                <p class="edu-para">Intermediate in Science (I.Sc)</p>
+                                <p class="edu-para">Percentage : 84.8%</p>
+                            </div>
+                            <div class="edu-details-2">
+                                <p>2016 - 2018</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+      
+    </div>
+    <!-- About section ends -->
+    <hr>
+
+    <!-- Skills Section -->
+    <div id="skills" class="div-for-all-section">
+        <h1 class="section-title" style="color : grey;">Skills</h1>
+        <div class="skill-detail-container">
+
+            <!-- 1st Row Skills -->
+            <div class="skill-containers">
+                <!-- First Box -->
+                <div class="details-container">
+                    <h2 class="skill-sub-title">Programming Language</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="images/cpp-logo.png" class="icon" alt="C++_logo">
+                            <div>
+                                <h3>C++</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="images/python-logo.png" class="icon" alt="Python_logo">
+                            <div>
+                                <h3>Python</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="images/c-logo.png" class="icon" alt="C_logo">
+                            <div>
+                                <h3>C</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="images/js-logo.png" class="icon" alt="JavaScript_logo">
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Beginner</p>
+                            </div>
+                        </article>
+                        
+                    </div>
+                </div>
+
+                <!-- Second Box -->
+                <div class="details-container">
+                    <h2 class="skill-sub-title">Python Frameworks (ML)</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="images/numpy-logo.png" class="icon" alt="">
+                            <div>
+                                <h3>NumPy</h3>
+                                <p>Beginner</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="images/pandas-logo.png" class="icon" alt="">
+                            <div>
+                                <h3>Pandas</h3>
+                                <p>Beginner</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="images/sklearn-logo.png" class="icon" alt="">
+                            <div>
+                                <h3>Scikit-Learn</h3>
+                                <p>Beginner</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="images/matplotlib-logo.svg" class="icon" alt="">
+                            <div>
+                                <h3>Matplotlib</h3>
+                                <p>Beginner</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2nd Row skills -->
+            <div class="skill-containers">
+                <!-- First Box (Software Tools)-->
+                <div class="details-container">
+                    <h2 class="skill-sub-title">Software Tools</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="images/git-logo.png" class="icon" alt="git_logo">
+                            <div>
+                                <h3>Git</h3>
+                                <p>Beginner</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="images/github-logo.png" class="icon" alt="Github_logo">
+                            <div>
+                                <h3>Github</h3>
+                                <p>Beginner</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="images/jupyter-logo.png" class="icon" alt="jupyter_logo">
+                            <div>
+                                <h3>Notebook</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        
+                        
+                    </div>
+                </div>
+
+                <!-- Second Box (Familiar) -->
+                <div class="details-container">
+                    <h2 class="skill-sub-title">Familiar With These</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="images/html-logo.png" class="icon" alt="html_logo">
+                            <div>
+                                <h3>HTML5</h3>
+                                <p>Beginner</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="images/css-logo.png" class="icon" alt="css_logo">
+                            <div>
+                                <h3>CSS3</h3>
+                                <p>Beginner</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="images/mysql-logo.png" class="icon" alt="mysql-logo">
+                            <div>
+                                <h3>MySQL</h3>
+                                <p>Beginner</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="images/shell-script-logo.png" class="icon" alt="shell-script">
+                            <div>
+                                <h3>Shell Scripting</h3>
+                                <p>Beginner</p>
+                            </div>
+                        </article>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+
+    <!-- Project Section -->
+    <div id="projects" class="div-for-all-section">
+        <h1 class="section-title" style="color : grey;">Projects</h1>
+        <div class="skill-detail-container">
+
+            <!-- Project First Row -->
+            <div class="skill-containers">
+                <div class="details-container">
+                    <div class="article-container">
+                        <img class="project-img" src="images/project1-logo.png" alt="Project1 pic">
+                    </div>
+                    <h2 class="project-title">Password Manager</h2>
+                    <div class="btn-container">
+                        <a href="https://github.com/abanand132/Password-Manager" target="_blank">
+                            <button class="btn btn-col1 project-btn">Github</button></a>
+                        <a href="https://youtu.be/RLPpn9YIXIk" target="_blank">
+                            <button class="btn btn-col1 project-btn">Live Demo</button></a>
+                    </div>
+                </div>
+
+                <div class="details-container">
+                    <div class="article-container">
+                        <img class="project-img" src="images/aqua-alert-logo.png" alt="Aqua Alert pic">
+                    </div>
+                    <h2 class="project-title">Aqua Alert</h2>
+                    <div class="btn-container">
+                        <a href="https://github.com">
+                            <button class="btn btn-col1 project-btn">Github</button></a>
+                        <a href="https://github.com">
+                            <button class="btn btn-col1 project-btn">Live Demo</button></a>
+                    </div>
+                </div>
+
+                <div class="details-container">
+                    <div class="article-container">
+                        <img class="project-img" src="images/project1-logo.png" alt="Project1 pic">
+                    </div>
+                    <h2 class="project-title">Password Manager</h2>
+                    <div class="btn-container">
+                        <a href="https://github.com">
+                            <button class="btn btn-col1 project-btn">Github</button></a>
+                        <a href="https://github.com">
+                            <button class="btn btn-col1 project-btn">Live Demo</button></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Project Second Row -->
+            <!-- <div class="skill-containers">
+                <div class="details-container">
+                    <div class="article-container">
+                        <img class="project-img" src="images/project1-logo.png" alt="Project1 pic">
+                    </div>
+                    <h2 class="project-title">Password Manager</h2>
+                    <div class="btn-container">
+                        <a href="https://github.com">
+                            <button class="btn btn-col1 project-btn">Github</button></a>
+                        <a href="https://github.com">
+                            <button class="btn btn-col1 project-btn">Live Demo</button></a>
+                    </div>
+                </div>
+
+                <div class="details-container">
+                    <div class="article-container">
+                        <img class="project-img" src="images/aqua-alert-logo.png" alt="Aqua Alert pic">
+                    </div>
+                    <h2 class="project-title">Aqua Alert</h2>
+                    <div class="btn-container">
+                        <a href="https://github.com">
+                            <button class="btn btn-col1 project-btn">Github</button></a>
+                        <a href="https://github.com">
+                            <button class="btn btn-col1 project-btn">Live Demo</button></a>
+                    </div>
+                </div>
+
+                <div class="details-container">
+                    <div class="article-container">
+                        <img class="project-img" src="images/project1-logo.png" alt="Project1 pic">
+                    </div>
+                    <h2 class="project-title">Password Manager</h2>
+                    <div class="btn-container">
+                        <a href="https://github.com">
+                            <button class="btn btn-col1 project-btn">Github</button></a>
+                        <a href="https://github.com">
+                            <button class="btn btn-col1 project-btn">Live Demo</button></a>
+                    </div>
+                </div>
+
+            </div> -->
+
+        </div>
+    </div>
+    <hr>
+
+    <!-- Contact Section -->
+    <div id="contacts" class="div-for-all-section">
+        <h1 class="section-title" style="color: #808080;">Contact Me !</h1>
+        <div class="contact-info-upper-container border-color-design">
+            <!-- email -->
+            <div class="contact-info-container">
+                <a href="mailto:abanand132@gmail.com">
+                    <img src="images/email-logo.png" alt="Email icon" class="icon email-icon"/></a>
+              <p class="contact-para"><a href="mailto:abanand132@gmail.com">abanand132@gmail.com</a></p>
+            </div>
+            <!-- linkedin -->
+            <div class="contact-info-container">
+                <a href="https://www.linkedin.com/in/abanand132/">
+                    <img src="images/linkedin-logo.png" alt="LinkedIn icon" class="icon linkedin-icon"/></a>
+                <p class="contact-para"><a href="https://www.linkedin.com/in/abanand132/">LinkedIn</a></p>
+            </div>
+
+            <!-- Github -->
+            <div class="contact-info-container">
+                <a href="https://www.github.com/abanand132/">
+                    <img src="images/github-logo.png" alt="Github icon" class="icon github-icon"/></a>
+                <p class="contact-para"><a href="https://www.github.com/abanand132/">Github</a></p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-div">
+            <p>Copyright &#169; 2023 Abhishek Anand. All Rights Reserved</p>
+        </div>
+        <!-- <a href="#desktop-nav"><img class="icon arrow-icon" src="images/arrow.png" alt=""></a> -->
+    </footer>
+    
     <script src="script.js"></script>
 </body>
 </html>
