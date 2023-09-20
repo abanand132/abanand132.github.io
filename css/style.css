@@ -368,6 +368,28 @@ footer p{
     text-align: center;
 }
 
+
+.what-new{
+    color: blue;
+}
+
 /* .arrow-icon{
     margin-left: 5%;
 } */
+
+
+
+/* Hovering Card Flip Effect on Project Section */
+
+.project-hastags{
+    display: flex;
+    gap: 0.5rem;
+}
+.project-hastags p{
+    padding: 0.3rem;
+    font-size: 0.7rem;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    color: white;
+    background-color: black;
+}
