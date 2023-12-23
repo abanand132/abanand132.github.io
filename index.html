@@ -6,6 +6,7 @@
     <meta name="description" content="It is all about information of Abhishek Anand like his education
     , projects, work experience and skills." />
     <title>Abhishek Anand - Software Engineer</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <!-- <link rel="stylesheet" type="text/css" href="css/mediaqueries.css"> -->
     <link rel="icon" type="image/x-icon" href="images/personal_logo3.svg">
@@ -45,7 +46,7 @@
             <h1 class="title">Abhishek Anand</h1>
             <p class="section-profile-p2">Software Engineer</p>
             <div class="btn-container">
-                <a href="docs/Abhishek_Anand_Resume.pdf"> <button class="btn btn-col1">Download CV</button> </a>
+                <a href="https://drive.google.com/file/d/186ZJSthNJH3UCvU-tVc_i4CZWjnTF5OM/view?usp=drive_link" target="_blank"> <button class="btn btn-col1">Download CV</button> </a>
                 <a href="#contacts"> <button class="btn btn-col2">Contact Me</button> </a>
             </div>
             <div class="social-container">
@@ -259,102 +260,67 @@
     <hr>
 
     <!-- Project Section -->
-    <div id="projects" class="div-for-all-section">
+    <div id="projects" class="swiper mySwiper">
         <h1 class="section-title" style="color : grey;">Projects</h1>
-        <div class="skill-detail-container">
+        <div class="swiper-wrapper">
 
-            <!-- Project First Row -->
-            <div class="skill-containers">
-                <div class="details-container">
-                    <div class="article-container">
-                        <img class="project-img" src="images/project1-logo.png" alt="Project1 pic">
-                    </div>
-                    <h2 class="project-title">Password Manager</h2>
+            <!-- Password Manager -->
+            <div class="card swiper-slide">
+                <div class="card__image">
+                    <img src="images/project1-logo.png" alt="card image">
+                </div>
+      
+                <div class="card__content">
+                    <span class="project-title">Password Manager</span>
+                    <p class="card__text">Password Manager is a application that helps you to manage your passwords efficiently by saving it securely in your device's storage and you can search your password whenever you need them.</p>
                     <div class="btn-container">
                         <a href="https://github.com/abanand132/Password-Manager" target="_blank">
                             <button class="btn btn-col1 project-btn">Github</button></a>
                         <a href="https://youtu.be/RLPpn9YIXIk" target="_blank">
                             <button class="btn btn-col1 project-btn">Video</button></a>
                     </div>
-                    <!-- <div class="back-card">
-                        <p>Password Manager is a application that helps you to manage your passwords efficiently by saving it securely in your device's storage.</p>
-                        <div class="project-hastags">
-                            <p>#python</p>
-                            <p>#python</p>
-                        </div>
-                    </div>  -->
                 </div>
+            </div>
 
-                <div class="details-container">
-                    <div class="article-container">
-                        <img class="project-img" src="images/aqua-alert-logo.png" alt="Aqua Alert pic">
-                    </div>
-                    <h2 class="project-title">Aqua Alert</h2>
-                    <div class="btn-container">
-                        <a href="https://theabhishek.me/Aqua-Alert/" target="_blank">
-                            <button class="btn btn-col1 project-btn">Website</button></a>
-                        <a href="https://github.com/abanand132/aqua-alert-model", target="_blank">
-                            <button class="btn btn-col1 project-btn">Github</button></a>
-                    </div>
+            <!-- YouTubo -->
+            <div class="card swiper-slide">
+                <div class="card__image">
+                    <img class="project-img" src="images/youtubo-pic.png" alt="YouTubo pic">
                 </div>
-
-                <div class="details-container">
-                    <div class="article-container">
-                        <img class="project-img" src="images/youtubo-pic.png" alt="YouTubo pic">
-                    </div>
-                    <h2 class="project-title">YouTubo</h2>
+      
+                <div class="card__content">
+                    <span class="project-title">YouTubo</span>
+                    <p class="card__text">YouTubo is a software that helps users to download YouTube    videos as well as whole Playlist at once.
+                    </p>
                     <div class="btn-container">
                         <a href="https://github.com/abanand132/youtubo", target="_blank">
                             <button class="btn btn-col1 project-btn">Github</button></a>
                         <a href="https://drive.google.com/file/d/1zrcVaW5yW-qOwXgCEeojaECO3qARaNAu/view?usp=sharing", target="_blank">
                             <button class="btn btn-col1 project-btn">Video</button></a>
                     </div>
+                    
                 </div>
-
             </div>
 
-            <!-- Project Second Row -->
-            <!-- <div class="skill-containers">
-                <div class="details-container">
-                    <div class="article-container">
-                        <img class="project-img" src="images/project1-logo.png" alt="Project1 pic">
-                    </div>
-                    <h2 class="project-title">Password Manager</h2>
-                    <div class="btn-container">
-                        <a href="https://github.com">
-                            <button class="btn btn-col1 project-btn">Github</button></a>
-                        <a href="https://github.com">
-                            <button class="btn btn-col1 project-btn">Live Demo</button></a>
-                    </div>
+            <!-- Aqua Alert -->
+            <div class="card swiper-slide">
+                <div class="card__image">
+                    <img src="images/aqua-alert-logo.png" alt="Aqua Alert pic">
                 </div>
-
-                <div class="details-container">
-                    <div class="article-container">
-                        <img class="project-img" src="images/aqua-alert-logo.png" alt="Aqua Alert pic">
-                    </div>
-                    <h2 class="project-title">Aqua Alert</h2>
+      
+                <div class="card__content">
+                    <span class="project-title">Aqua Alert</span>
+                    <p class="card__text">It is a ML model which can detect a predefined set of
+                        contaminants present in the waste water with a accuracy of 91%.</p>
                     <div class="btn-container">
-                        <a href="https://github.com">
+                        <a href="https://theabhishek.me/Aqua-Alert/" target="_blank">
+                            <button class="btn btn-col1 project-btn">Website</button></a>
+                        <a href="https://github.com/abanand132/aqua-alert-model", target="_blank">
                             <button class="btn btn-col1 project-btn">Github</button></a>
-                        <a href="https://github.com">
-                            <button class="btn btn-col1 project-btn">Live Demo</button></a>
                     </div>
+                    
                 </div>
-
-                <div class="details-container">
-                    <div class="article-container">
-                        <img class="project-img" src="images/project1-logo.png" alt="Project1 pic">
-                    </div>
-                    <h2 class="project-title">Password Manager</h2>
-                    <div class="btn-container">
-                        <a href="https://github.com">
-                            <button class="btn btn-col1 project-btn">Github</button></a>
-                        <a href="https://github.com">
-                            <button class="btn btn-col1 project-btn">Live Demo</button></a>
-                    </div>
-                </div>
-
-            </div> -->
+            </div>
 
         </div>
     </div>
@@ -389,12 +355,37 @@
     <footer>
         <div class="footer-div">
             <p>Copyright &#169; 2023 Abhishek Anand. All Rights Reserved&emsp; 
-                <a class="what-new" href="docs/whatisNew.txt" target="_blank">(What's new ?)</a>
+                <a class="what-new" href="whatisNew.txt" target="_blank">(What's new ?)</a>
             </p>
         </div>
         <!-- <a href="#desktop-nav"><img class="icon arrow-icon" src="images/arrow.png" alt=""></a> -->
     </footer>
-    
-    <script src="script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            loop: true,
+            autoplay: {
+                delay: 3000, // 2000ms = 2s
+                disableOnInteraction: false,
+            },
+            autoplayHoverPause: true,
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            coverflowEffect: {
+                rotate: 0,
+                stretch: 0,
+                depth: 300,
+                modifier: 1,
+                slideShadows: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+            },
+        });
+
+    </script>
 </body>
 </html>
