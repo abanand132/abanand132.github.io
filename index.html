@@ -7,6 +7,7 @@
     , projects, work experience and skills." />
     <title>Abhishek Anand - Software Engineer</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <!-- <link rel="stylesheet" type="text/css" href="css/mediaqueries.css"> -->
     <link rel="icon" type="image/x-icon" href="images/personal_logo3.svg">
@@ -274,10 +275,12 @@
                     <span class="project-title">Password Manager</span>
                     <p class="card__text">Password Manager is a application that helps you to manage your passwords efficiently by saving it securely in your device's storage and you can search your password whenever you need them.</p>
                     <div class="btn-container">
-                        <a href="https://github.com/abanand132/Password-Manager" target="_blank">
-                            <button class="btn btn-col1 project-btn">Github</button></a>
-                        <a href="https://youtu.be/RLPpn9YIXIk" target="_blank">
-                            <button class="btn btn-col1 project-btn">Video</button></a>
+                        <a href="https://github.com/abanand132/Password-Manager" target="_blank" title="Github Repo">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="https://youtu.be/RLPpn9YIXIk" target="_blank" title="Video">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -293,12 +296,15 @@
                     <p class="card__text">YouTubo is a software that helps users to download YouTube    videos as well as whole Playlist at once.
                     </p>
                     <div class="btn-container">
-                        <a href="https://github.com/abanand132/youtubo", target="_blank">
-                            <button class="btn btn-col1 project-btn">Github</button></a>
-                        <a href="https://drive.google.com/file/d/1zrcVaW5yW-qOwXgCEeojaECO3qARaNAu/view?usp=sharing", target="_blank">
-                            <button class="btn btn-col1 project-btn">Video</button></a>
-                        <a href="https://github.com/abanand132/youtubo/raw/main/application/youtubo.exe", target="_blank">
-                            <button class="btn btn-col1 project-btn">Download</button></a>
+                        <a href="https://github.com/abanand132/youtubo", target="_blank" title="Github Repo">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="https://drive.google.com/file/d/1zrcVaW5yW-qOwXgCEeojaECO3qARaNAu/view?usp=sharing", target="_blank" title="Video">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                        <a href="https://github.com/abanand132/youtubo/raw/main/application/youtubo.exe", target="_blank" title="Download App">
+                                <i class="fa-solid fa-download"></i>
+                        </a>
                     </div>
                     
                 </div>
@@ -317,8 +323,30 @@
                     <div class="btn-container">
                         <a href="https://theabhishek.me/Aqua-Alert/" target="_blank">
                             <button class="btn btn-col1 project-btn">Website</button></a>
-                        <a href="https://github.com/abanand132/aqua-alert-model", target="_blank">
-                            <button class="btn btn-col1 project-btn">Github</button></a>
+                        <a href="https://github.com/abanand132/aqua-alert-model", target="_blank" title="Github Repo">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <!-- Student Management Software -->
+            <div class="card swiper-slide">
+                <div class="card__image">
+                    <img src="images/education-logo.png" alt="Aqua Alert pic">
+                </div>
+      
+                <div class="card__content">
+                    <span class="project-title">School Management Software</span>
+                    <p class="card__text">coming soon..</p>
+                    <div class="btn-container">
+                        <a href="https://github.com/", target="_blank" title="Github Repo">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="https://youtube.com/" target="_blank" title="Video">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
                     </div>
                     
                 </div>
@@ -359,6 +387,7 @@
             <p>Copyright &#169; 2023 Abhishek Anand. All Rights Reserved&emsp; 
                 <a class="what-new" href="whatisNew.txt" target="_blank">(What's new ?)</a>
             </p>
+            
         </div>
         <!-- <a href="#desktop-nav"><img class="icon arrow-icon" src="images/arrow.png" alt=""></a> -->
     </footer>
@@ -368,7 +397,7 @@
         var swiper = new Swiper(".mySwiper", {
             loop: true,
             autoplay: {
-                delay: 4000, // 2000ms = 2s
+                delay: 5000, // 2000ms = 2s
                 disableOnInteraction: false,
             },
             autoplayHoverPause: true,
