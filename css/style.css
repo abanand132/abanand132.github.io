@@ -36,7 +36,7 @@ nav, .nav-links {
 .nav-links {
     gap: 2rem;  /* to provide gap b/w two words in the nav bar */
     list-style: none; /* to remove the bullet points from the list */
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     padding-top: 1rem;
 }
 
