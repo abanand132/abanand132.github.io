@@ -116,3 +116,9 @@ nav, .nav-links {
     background-color: black;
     color: white;
 }
+
+.github-btn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
