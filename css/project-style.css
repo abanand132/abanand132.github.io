@@ -51,6 +51,8 @@ nav, .nav-links {
     min-height: fit-content;
 }
 
+
+
 .pro-heading{
     text-align: center;
     font-size: 2rem;
@@ -86,13 +88,12 @@ nav, .nav-links {
     width: 100%;
     border-collapse: collapse;
     margin: 0;
-    /* gap: 1rem; */
 }
 
 .btn{
     font-weight: 600;
     padding: 0.4rem;
-    border-radius: 0.8rem;
+    border-radius: 0.6rem;
     transition: all 300ms ease;
     font-size: 0.8rem;
     background-color: green;
@@ -103,4 +104,15 @@ nav, .nav-links {
     cursor: pointer;
     background-color: white;
     color: black;
+}
+
+.github-btn{
+    margin-top: 2.1rem;
+    font-weight: 600;
+    padding: 0.4rem;
+    border-radius: 0.6rem;
+    transition: all 300ms ease;
+    font-size: 0.8rem;
+    background-color: black;
+    color: white;
 }
