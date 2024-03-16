@@ -1,5 +1,0 @@
-23/12/23 ->
-- Added project slider
-
-03/09/23 ->
-- Just added this option. Here I am going to add whatever changes I am going to made in future.
