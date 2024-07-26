@@ -583,12 +583,21 @@ small {
   align-items: center;
   height:1%;
   background: linear-gradient(45deg, #686969, rgb(0, 0, 0), #686969);
+  gap: 5rem;
 }
 
 .footer p{
   color: white;
-  font-size: 1.2rem;
-  font-weight: 500;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.counter{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  gap: 0.5rem;
 }
 
 #contact .container {
@@ -770,5 +779,7 @@ small {
 
   .footer{
     margin-top: 10%;
+    flex-direction: column;
+    gap: 0.05rem;
   }
 }
