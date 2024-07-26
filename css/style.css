@@ -467,6 +467,7 @@ a.hoverline {
   transition: 0.25s all;
   -moz-transition: 0.25s all;
   -webkit-transition: 0.25s all;
+  cursor: pointer;
 }
 
 /* main a.hoverline */
