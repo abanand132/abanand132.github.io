@@ -19,6 +19,7 @@
 
   <!-- Custom Styles-->
   <link rel="stylesheet" href="/css/style.css" />
+  <link rel="stylesheet" href="css/dark-theme.css">
   <link rel="icon" href="/assets/img/my-favicon.svg" type="image/x-icon">
   
 
@@ -158,13 +159,12 @@
   <main>
     <!-- First Section: Heading lines and image -->
     <section id="intro" class="section scrollspy full-height">
-      <div class="overlay"></div>
       <div class="container">
         <div class="col-md-9">
           <div class="content section-padding valign" style="margin-left: 10%; margin-top: 50px;">
             <div class="caption">
-              <h2 style="color: black;">Hi, I'm <span style="color: rgb(88, 34, 212);">Abhishek Anand</span></h2>
-              <h5 style="color:#000000">A <span class="typing" style="font-weight: 400; color:#5303f5"></span></h5>
+              <h2><span class="greeting">Hi, I'm</span> <span class="intro-name">Abhishek Anand</span></h2>
+              <h5 class="greeting">A <span class="typing intro-typing"></span></h5>
         
               <p class="intro-bio">Self-driven and a passionate programmer with a curious mind who enjoys solving a complex and challenging real-world problems.</p>
             </div>
@@ -875,8 +875,13 @@ utilized perspective transformation, object detection, and object tracking to fi
       </div>
     </section>
 
+    <!-- <button id="dark-theme-toggle" class="dark-theme-toggle">🌙</button> -->
+    <button id="darkModeToggle" class="btn-floating btn-large waves-effect waves-light">
+      <i class="material-icons">brightness_4</i>
+    </button>
+
     <footer class="footer">
-      <p>Last updated on : 27th July, 2024</p>
+      <p>Last updated on : 1st Aug, 2024</p>
       <div class="counter">
         <p>Total hits : </p>
         <!-- hitwebcounter Code START -->
@@ -917,6 +922,8 @@ utilized perspective transformation, object detection, and object tracking to fi
       })
     })
   </script>
+
+  <script src="dark-scripts.js"></script>
   <script src="scripts.js"></script>
 
 </body>

@@ -1,0 +1,155 @@
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.dark-mode ul.side-nav.fixed li.logo{
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+}
+
+.dark-mode .profile-pic{
+    border-color: teal;
+}
+
+
+.dark-mode .card,
+.dark-mode nav li,
+.dark-mode .side-nav,
+.dark-mode .side-nav li.logo {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+}
+
+.dark-mode .teal-text,
+.dark-mode a:not(.btn-floating) {
+    color: #4db6ac !important;
+}
+
+.dark-mode .teal {
+    background-color: #00695c !important;
+}
+
+.dark-mode .grey-text {
+    color: #bdbdbd !important;
+}
+
+.dark-mode .card,
+.dark-mode .side-nav {
+    border-color: #333;
+}
+
+.dark-mode .btn-floating,
+.dark-mode .btn {
+    background-color: #00695c;
+}
+
+.dark-mode .btn-floating:hover,
+.dark-mode .btn:hover {
+    background-color: #004d40;
+}
+
+.dark-mode #intro.section .container {
+    color: #4db6ac;
+}
+
+.dark-mode .greeting{
+    color: white;
+}
+
+.dark-mode .intro-name{
+    color: rgb(209, 209, 29);
+}
+.dark-mode .intro-typing{
+    color: teal;
+}
+
+.dark-mode .intro-bio{
+    color: white;
+}
+
+.dark-mode .card ul li {
+    color: #e0e0e0;
+}
+
+.dark-mode .card ul li li {
+    color: #bdbdbd;
+}
+
+.dark-mode blockquote {
+    border-left-color: #4db6ac;
+    color: #4db6ac;
+}
+
+.dark-mode .cert-list ul li {
+    background-color: #1e1e1e;
+    border-color: #333;
+}
+
+.dark-mode .cert-list ul li:hover {
+    background-color: #252525;
+}
+
+.dark-mode .cert-list{
+    color: white;
+}
+
+.dark-mode .footer {
+    background: linear-gradient(45deg, #1e1e1e, #121212, #1e1e1e);
+}
+
+.dark-mode .footer p {
+    color: #e0e0e0;
+}
+
+/* toggle btn  */
+#darkModeToggle {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.dark-mode #darkModeToggle{
+    background-color: rgb(255, 254, 253);
+}
+.dark-mode .btn-floating i{
+    color: black;
+}
+
+/* Mobile screens */
+@media screen and (max-width: 600px) {
+    #darkModeToggle {
+        top: 15px;
+        right: 10px;
+        width: 30px;
+        height: 30px;
+    }
+
+    #darkModeToggle i {
+        font-size: 18px;
+    }
+}
+
+/* Tablet screens */
+@media screen and (max-width: 992px) {
+    #darkModeToggle {
+        top: 15px;
+        right: 15px;
+        width: 35px;
+        height: 35px;
+    }
+
+    #darkModeToggle i {
+        font-size: 20px;
+    }
+}
