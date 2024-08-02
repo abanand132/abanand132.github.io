@@ -12,9 +12,14 @@ body.dark-mode {
     color: white;
 }
 
-.dark-mode ul.table-of-contents li:not(.logo) a.active{
-    color: #333;
+/* nav 3 */
+.dark-mode ul#slide-out li:not(.logo) a span{
+    color: #fff;
 }
+
+/* .dark-mode ul.table-of-contents li:not(.logo) a.active{
+    color: #333;
+} */
 
 .dark-mode ul.table-of-contents li:not(.logo) a:hover{
     background-color: black;
