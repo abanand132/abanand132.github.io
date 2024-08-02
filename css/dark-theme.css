@@ -8,6 +8,18 @@ body.dark-mode {
     color: #e0e0e0;
 }
 
+.dark-mode ul.side-nav.fixed.table-of-contents li:not(.logo) a span{
+    color: white;
+}
+
+.dark-mode ul.table-of-contents li:not(.logo) a.active{
+    color: #333;
+}
+
+.dark-mode ul.table-of-contents li:not(.logo) a:hover{
+    background-color: black;
+}
+
 .dark-mode .profile-pic{
     border-color: teal;
 }
@@ -58,7 +70,7 @@ body.dark-mode {
 }
 
 .dark-mode .intro-name{
-    color: rgb(209, 209, 29);
+    color: wheat;
 }
 .dark-mode .intro-typing{
     color: teal;
@@ -80,6 +92,14 @@ body.dark-mode {
     border-left-color: #4db6ac;
     color: #4db6ac;
 }
+
+/* skills */
+
+.dark-mode .brown-text{
+    color: wheat !important;
+}
+
+/* certificate */
 
 .dark-mode .cert-list ul li {
     background-color: #1e1e1e;
@@ -125,6 +145,9 @@ body.dark-mode {
 .dark-mode .btn-floating i{
     color: black;
 }
+
+
+/* responsive */
 
 /* Mobile screens */
 @media screen and (max-width: 600px) {

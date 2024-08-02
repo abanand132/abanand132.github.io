@@ -1,0 +1,112 @@
+/* Dark theme styles */
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.dark-mode .container {
+    background-color: #1e1e1e;
+}
+
+.dark-mode h1, .dark-mode h2, .dark-mode h3 {
+    color: wheat;
+}
+
+.dark-mode .buttons{
+    background-color: #333333;
+}
+
+.dark-mode .buttons .download-btn,
+.dark-mode .buttons .github-btn {
+    background-color: teal;
+    color: #ffffff;
+    border: 1.5px solid #4db6ac;
+}
+
+.dark-mode .buttons .download-btn:hover,
+.dark-mode .buttons .github-btn:hover {
+    background-color: #4db6ac;
+    color: #121212;
+}
+
+.dark-mode .main-content {
+    background-color: #1e1e1e;
+}
+
+.dark-mode section{
+    background-color: #333333;
+}
+
+.dark-mode .features ul li,
+.dark-mode p{
+    color: #ffffff;
+}
+
+.dark-mode nav a:hover {
+    color: wheat;
+}
+
+/* You may need to adjust the video player styles if you're using one */
+.dark-mode .video-player {
+    background-color: #000000;
+}
+
+/* Adjust any other specific elements as needed */
+
+
+/* toggle btn  */
+#darkModeToggle {
+    position: fixed;
+    top: 1rem;
+    right: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+}
+
+
+.dark-mode #darkModeToggle{
+    background-color: rgb(255, 254, 253);
+}
+.dark-mode .btn-floating i{
+    color: black;
+}
+
+
+/* responsive */
+
+/* Mobile screens */
+@media screen and (max-width: 600px) {
+    #darkModeToggle {
+        top: 15px;
+        right: 10px;
+        width: 30px;
+        height: 30px;
+    }
+
+    #darkModeToggle i {
+        font-size: 18px;
+    }
+}
+
+/* Tablet screens */
+@media screen and (max-width: 992px) {
+    #darkModeToggle {
+        top: 15px;
+        right: 15px;
+        width: 35px;
+        height: 35px;
+    }
+
+    #darkModeToggle i {
+        font-size: 20px;
+    }
+}
