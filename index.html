@@ -11,10 +11,9 @@
 
   <!-- Materialize - Compiled and minified CSS-->
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css" />
+  
   <!-- Font Awesome Icon - CSS-->
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
-
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/ee43c21df6.js" crossorigin="anonymous"></script>
 
   <!-- Custom Styles-->
   <link rel="stylesheet" href="/css/style.css" />
@@ -39,8 +38,9 @@
       </li>
 
       <li class="bold">
-        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
-            class="mdi-social-person small"></i><span>About</span></a>
+        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text">
+          <i class="mdi-social-person small"></i><span>About</span></a>
+          <!-- <i class="fa-solid fa-user fa-lg"></i><span>About</span></a> -->
       </li>
       <li class="bold">
         <a aria-label="Navigate to the Experience section" href="#experience"
@@ -76,9 +76,8 @@
 
       <li class="bold">
         <a aria-label="Navigate to the Certificate section" href="#certificates" class="waves-effect waves-dark teal-text">
-          <!-- <i><span class="material-icons">workspace_premium</span></i> -->
-          <i><span class="material-icons">card_membership</span></i>
-          <span>Certifications</span></a>
+          <i class="mdi-av-web small"></i><span>Certification</span></a>
+        </a>
       </li>
 
       <li class="bold">
@@ -138,9 +137,7 @@
 
       <li class="bold">
         <a aria-label="Navigate to the Education section" href="#certificates" class="waves-effect waves-dark teal-text">
-          <!-- <i><span class="material-icons">workspace_premium</span></i> -->
-          <i><span class="material-icons">card_membership</span></i>
-          <span>Certifications</span></a>
+          <i class="mdi-av-web small"></i><span>Certification</span></a>
       </li>
 
       <li class="bold">
@@ -166,7 +163,8 @@
               <h2><span class="greeting">Hi, I'm</span> <span class="intro-name">Abhishek Anand</span></h2>
               <h5 class="greeting">A <span class="typing intro-typing"></span></h5>
         
-              <p class="intro-bio">Self-driven and a passionate programmer with a curious mind who enjoys solving a complex and challenging real-world problems.</p>
+              <p class="intro-bio">Self-driven and a passionate programmer with a curious mind who enjoys solving a complex and challenging real-world problems.
+              </p>
             </div>
 
             <!-- About me and resume button -->
@@ -176,22 +174,27 @@
             </div>
 
             <!-- Intro - social buttons -->
-            <div class="social">
+            <div class="social ">
               <a href="https://linkedin.com/in/abanand132" target="_blank">
-                <button class="icon-btn linkedin">
+                <button class="icon-btn linkedin" aria-label="button to visit my LinkedIn profile">
                   <i class="fa fa-linkedin"></i>
                 </button>
               </a>
               <a href="https://github.com/abanand132" target="_blank">
-                <button class="icon-btn github">
+                <button class="icon-btn github" aria-label="button to visit my Github profile">
                   <i class="fa fa-github"></i>
                 </button>
               </a>
               <a href="https://x.com/abanand132" target="_blank">
-                <button class="icon-btn github">
+                <button class="icon-btn github" aria-label="button to visit my Twitter/X profile">
                   <i class="fa fa-twitter"></i>
                 </button>
               </a>
+
+              <!-- <a href="https://linkedin.com/in/abanand132" class="btn-floating btn-large waves-effect waves-light linkedin tooltipped" aria-label="View Abhishek on LinkedIn" target="_blank" data-position="top" data-tooltip="View Abhishek on LinkedIn">
+                <i class="fa fa-linkedin"></i>
+              </a> -->
+
             </div>
 
           </div>
@@ -396,7 +399,7 @@ utilized perspective transformation, object detection, and object tracking to fi
             <div class="card medium">
               <div class="card-image waves-effect waves-block waves-light">
                 <a href="projects/youtubo.html" target="_blank">
-                  <img alt="youtube videos downloading app" src="/assets/img/projects/youtubo-logo.png" style="height: 100%; width: 100%" />
+                  <img alt="youtube videos downloading app" src="/assets/img/projects/youtubo-logo.webp" style="height: 100%; width: 100%" />
                 </a>
               </div>
               <div class="card-content">
@@ -416,7 +419,7 @@ utilized perspective transformation, object detection, and object tracking to fi
             <div class="card medium">
               <div class="card-image waves-effect waves-block waves-light">
                 <a href="projects/pass-manager.html" target="_blank">
-                  <img alt="password manager logo" src="/assets/img/projects/pass-logo.png" style="height: 100%; width: 100%;" />
+                  <img alt="password manager logo" src="/assets/img/projects/pass-logo.webp" style="height: 100%; width: 100%;" />
                 </a>
               </div>
               <div class="card-content">
@@ -585,7 +588,7 @@ utilized perspective transformation, object detection, and object tracking to fi
             <div class="card medium">
               <div class="card-image waves-effect waves-block waves-light">
                 <a href="projects/aqua-alert.html" target="_blank">
-                  <img alt="aqua alert logo" src="/assets/img/projects/aqua-alert-logo.png" style="height: 100%; width: 100%" />
+                  <img alt="aqua alert logo" src="/assets/img/projects/aqua-alert-logo.webp" style="height: 100%; width: 100%" />
               </a>
               </div>
               <div class="card-content">
@@ -628,10 +631,10 @@ utilized perspective transformation, object detection, and object tracking to fi
                 <img alt="CSS-logo" src="/assets/img/skills/css3.png" class="responsive-img" />CSS3
               </div>
               <div class="col s4 m2">
-                <img alt="sql-logo" src="/assets/img/skills/sql-logo.png" class="responsive-img" />SQL
+                <img alt="sql-logo" src="/assets/img/skills/sql-logo.webp" class="responsive-img" />SQL
               </div>
 
-              
+
             </div>
           </div>
         </div>
@@ -645,7 +648,7 @@ utilized perspective transformation, object detection, and object tracking to fi
                 <img alt="mysql-logo" src="/assets/img/skills/mysql-logo.png" class="responsive-img" />MySQL
               </div>
               <div class="col s4 m2">
-                <img alt="sqlite-logo" src="/assets/img/skills/sqlite-logo.png" class="responsive-img" />SQLite3
+                <img alt="sqlite-logo" src="/assets/img/skills/sqlite-logo.webp" class="responsive-img" />SQLite3
               </div>
             </div>
           </div>
@@ -850,33 +853,34 @@ utilized perspective transformation, object detection, and object tracking to fi
       <div class="container contact-container">
         <div class="contact-wrapper">
           <div class="contact-item">
-            <a href="mailto:abanand132@gmail.com" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped" aria-label="Email Abhishek" target="_blank" data-position="top" data-tooltip="Email Abhishek">
-              <i class="material-icons">email</i>
+            <a href="mailto:abanand132@gmail.com" class="btn-floating btn-large waves-effect waves-light tooltipped github" aria-label="Email Abhishek" target="_blank" data-position="top" data-tooltip="Email Abhishek">
+              <i class="fa-solid fa-envelope"></i>
             </a>
             <a href="mailto:abanand132@gmail.com" class="hoverline">abanand132@gmail.com</a>
           </div>
           <div class="contact-item">
-            <a href="http://github.com/abanand132" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped" aria-label="View Abhishek on GitHub" target="_blank" data-position="top" data-tooltip="View Abhishek on GitHub">
+            <a href="https://github.com/abanand132" class="btn-floating btn-large waves-effect waves-light tooltipped github" aria-label="View Abhishek on GitHub" target="_blank" data-position="top" data-tooltip="View Abhishek on GitHub">
               <i class="fa fa-github"></i>
             </a>
-            <a href="http://github.com/abanand132" class="hoverline" target="_blank">github.com/abanand132</a>
+            <a href="https://github.com/abanand132" class="hoverline" target="_blank">github.com/abanand132</a>
           </div>
           <div class="contact-item">
-            <a href="http://linkedin.com/in/abanand132" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped" aria-label="View Abhishek on LinkedIn" target="_blank" data-position="top" data-tooltip="View Abhishek on LinkedIn">
+            <a href="https://linkedin.com/in/abanand132" class="btn-floating btn-large waves-effect waves-light tooltipped linkedin" aria-label="View Abhishek on LinkedIn" target="_blank" data-position="top" data-tooltip="View Abhishek on LinkedIn">
               <i class="fa fa-linkedin"></i>
             </a>
-            <a href="http://linkedin.com/in/abanand132" class="hoverline" target="_blank">linkedin.com/in/abanand132</a>
+            
+            <a href="https://linkedin.com/in/abanand132" class="hoverline" target="_blank">linkedin.com/in/abanand132</a>
           </div>
         </div>
       </div>
     </section>
 
     <button id="darkModeToggle" class="btn-floating btn-large waves-effect waves-light">
-      <i class="material-icons">brightness_4</i>
+      <i class="fa-solid fa-sun"></i>
     </button>
 
     <footer class="footer">
-      <p>Last updated on : 1st Aug, 2024</p>
+      <p>Last updated on : 3rd Aug, 2024</p>
       <div class="counter">
         <p>Total hits : </p>
         <!-- hitwebcounter Code START -->
@@ -890,6 +894,7 @@ utilized perspective transformation, object detection, and object tracking to fi
 
   <!-- typed.js -->
   <script src="assets/vendor/typed.js/typed.min.js"></script>
+
   <script type="text/javascript">
     var typed = new Typed('.typing',{
       strings: ["Developer", "Pythonist", "Machine Learning Enthusiast"],

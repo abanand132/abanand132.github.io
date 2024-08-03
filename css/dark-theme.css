@@ -29,6 +29,21 @@ body.dark-mode {
     border-color: teal;
 }
 
+.dark-mode .linkedin,
+.dark-mode .github{
+    background-color: #121212;
+}
+
+.dark-mode .readme, .dark-mode .resume-btn{
+    background-color: teal;
+    color: white;
+}
+
+.dark-mode .readme:hover, .dark-mode .resume-btn:hover{
+    background-color: rgb(4, 167, 167);
+    color: black;
+    border-color: #4db6ac;
+}
 
 .dark-mode .card,
 .dark-mode nav li,
@@ -38,9 +53,16 @@ body.dark-mode {
     color: #e0e0e0;
 }
 
-.dark-mode .teal-text,
-.dark-mode a:not(.btn-floating) {
-    color: #4db6ac !important;
+.dark-mode .side-nav i{
+    color: #4db6ac;
+}
+
+.dark-mode .teal-text{
+    color: teal !important;
+}
+
+.dark-mode a:not(.btn-floating):not(.readme):not(.resume-btn) {
+    color: #4db6ac;
 }
 
 .dark-mode .teal {
@@ -65,6 +87,16 @@ body.dark-mode {
 .dark-mode .btn:hover {
     background-color: #004d40;
 }
+
+.dark-mode .btn-floating i{
+    color: white;
+    background-color: #121212;
+}
+
+.dark-mode .btn-floating i:hover{
+    background-color: #2b2b2b;
+}
+
 
 .dark-mode #intro.section .container {
     color: #4db6ac;
@@ -111,6 +143,10 @@ body.dark-mode {
     border-color: #333;
 }
 
+.dark-mode .cert-list ul li a{
+    color: wheat !important;
+}
+
 .dark-mode .cert-list ul li:hover {
     background-color: #252525;
 }
@@ -147,9 +183,7 @@ body.dark-mode {
 .dark-mode #darkModeToggle{
     background-color: rgb(255, 254, 253);
 }
-.dark-mode .btn-floating i{
-    color: black;
-}
+
 
 
 /* responsive */
