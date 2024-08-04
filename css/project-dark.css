@@ -4,6 +4,10 @@ body.dark-mode {
     color: #e0e0e0;
 }
 
+.dark-mode nav a:hover {
+    color: wheat;
+}
+
 .dark-mode .container {
     background-color: #1e1e1e;
 }
@@ -42,16 +46,14 @@ body.dark-mode {
     color: #ffffff;
 }
 
-.dark-mode nav a:hover {
+.dark-mode blockquote{
     color: wheat;
+    border-color: wheat;
 }
 
-/* You may need to adjust the video player styles if you're using one */
 .dark-mode .video-player {
     background-color: #000000;
 }
-
-/* Adjust any other specific elements as needed */
 
 
 /* toggle btn  */
