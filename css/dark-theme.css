@@ -110,7 +110,7 @@ body.dark-mode {
     color: wheat;
 }
 .dark-mode .intro-typing{
-    color: teal;
+    color: rgb(16, 186, 186);
 }
 
 .dark-mode .intro-bio{

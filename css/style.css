@@ -132,6 +132,9 @@ body {
   color: #333;
   font-size: 1rem;
 }
+html{
+  scroll-behavior: smooth;
+}
 
 /* main a -- links */
 
@@ -736,6 +739,7 @@ small {
     height: 56px;
     line-height: 56px;
   }
+  
   h3 {
     padding: 20px 30px;
     margin-bottom: 40px;
@@ -797,6 +801,14 @@ small {
   /* .readme .resume-btn {
     padding: 0.8rem 0.5rem;
   } */
+
+  .full-height {
+    height: 80vh;
+  }
+
+  .intro-bio{
+    font-size: 1em;
+  }
   .card .card-content .card-title {
     font-size: 20px;
     line-height: 24px;
