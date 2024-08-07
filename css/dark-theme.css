@@ -17,9 +17,10 @@ body.dark-mode {
     color: #fff;
 }
 
-/* .dark-mode ul.table-of-contents li:not(.logo) a.active{
-    color: #333;
-} */
+.dark-mode ul.table-of-contents li:not(.logo) a.active, 
+.dark-mode ul.table-of-contents li:not(.logo) a:hover{
+    background-color: black;
+}
 
 .dark-mode ul.table-of-contents li:not(.logo) a:hover{
     background-color: black;

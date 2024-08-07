@@ -24,11 +24,13 @@
   right: 0;
 }
 
-@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+
 .social {
+  display: flex;
   margin: 3rem auto 0;
   width: auto;
   text-align: inherit;
+  gap: 0.7em;
 }
 
 .icon-btn {
@@ -49,10 +51,6 @@
   background-color: black;
 }
 
-.linkedin {
-  color: white;
-  background-color: black;
-}
 
 .angellist {
   color: grey;
@@ -63,9 +61,6 @@
   color: #FFFFFF;
 }
 
-.linkedin:hover {
-  background-color: #0077b5;
-}
 
 .angellist:hover {
   background-color: grey;
@@ -132,9 +127,9 @@ body {
   color: #333;
   font-size: 1rem;
 }
-html{
+/* html{
   scroll-behavior: smooth;
-}
+} */
 
 /* main a -- links */
 
@@ -636,6 +631,10 @@ small {
   width: auto;
   max-width: 600px;
   margin: 3% 2% ;
+  /* display: flex;
+  gap: 20px;
+  justify-content: space-between; */
+  
 }
 
 #contact .contact-container {
@@ -644,11 +643,13 @@ small {
   margin-left: 0;
 }
 
-
 .contact-wrapper {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  /* background-color: #795548;
+  padding: 10px;
+  border-radius: 5px; */
 }
 
 .contact-item {
@@ -838,6 +839,10 @@ small {
   #intro.section {
     background-position-x: 30%;
   }
+
+  /* .contact-wrapper{
+    flex-direction: column;
+  } */
 
   .contact-item {
     flex-direction: column;
