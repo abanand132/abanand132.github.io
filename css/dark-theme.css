@@ -33,6 +33,7 @@ body.dark-mode {
 .dark-mode .linkedin,
 .dark-mode .github{
     background-color: #121212;
+    color: white;
 }
 
 .dark-mode .readme, .dark-mode .resume-btn{
