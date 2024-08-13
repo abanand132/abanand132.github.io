@@ -30,7 +30,7 @@
   margin: 3rem auto 0;
   width: auto;
   text-align: inherit;
-  gap: 0.7em;
+  /* gap: 0.7em; */
 }
 
 .icon-btn {
