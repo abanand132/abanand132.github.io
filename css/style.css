@@ -781,6 +781,9 @@ small {
   section#intro {
     margin-bottom: -64px;
   }
+  .full-height{
+    height: 50vh;
+  }
   .card .role {
     position: relative;
     right: initial;
