@@ -575,6 +575,7 @@ small {
 
 .cert-buttons .cert-btn.active {
   background-color: black;
+  border: 1px solid white;
 }
 
 .cert-buttons .cert-btn.active::after {
@@ -584,6 +585,7 @@ small {
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
   border-top: 10px solid black;
+  
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -859,12 +861,13 @@ small {
     gap: 0.05rem;
   }
   .cert-buttons {
-    flex-direction: column;
-    gap: 5px;
+    flex-direction: row;
+    justify-content: center;
+    /* gap: 15px; */
 }
 
   .cert-buttons .cert-btn {
-    width: 100%;
+    width: fit-content;
 }
 }
 
