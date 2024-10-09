@@ -140,6 +140,10 @@ body.dark-mode {
 
 /* certificate */
 
+.dark-mode .cert-btn.active{
+    background-color: teal;
+}
+
 .dark-mode .cert-list ul li {
     background-color: #1e1e1e;
     border-color: #333;

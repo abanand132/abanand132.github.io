@@ -558,11 +558,11 @@ small {
 }
 
 .cert-buttons .cert-btn {
-  padding: 10px 20px;
+  padding: 5px 10px;
   background-color: #3a1cc9;
   color: #fff;
   border: none;
-  border-radius: 5px;
+  border-radius: 15px;
   cursor: pointer;
   position: relative; /* For the arrow */
   transition: background-color 0.3s, transform 0.3s;
@@ -575,10 +575,9 @@ small {
 
 .cert-buttons .cert-btn.active {
   background-color: black;
-  border: 1px solid white;
 }
 
-.cert-buttons .cert-btn.active::after {
+/* .cert-buttons .cert-btn.active::after {
   content: '';
   width: 0;
   height: 0;
@@ -590,7 +589,7 @@ small {
   left: 50%;
   transform: translateX(-50%);
   bottom: -10px;
-}
+} */
 
 .cert-list ul {
   display: none;
